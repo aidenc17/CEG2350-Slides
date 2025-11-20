@@ -1,0 +1,18 @@
+# Example .gitignore 
+
+# Used to hide files from tracking. Will also make 
+# commands like "git add ." not add any file listed
+# in here
+
+program
+
+# hides all files ending in .exe 
+*.exe 
+
+*.i
+*.o
+
+
+# .env files are for local enviornments and are commonly found in here
+
+.env
